@@ -12,6 +12,6 @@ The [Fabric Event Listener Trigger](trigger/eventlistener) allows you to impleme
 
 The [Fabric Request Activity](activity/fabrequest) allows you to implement client apps that interacts with Hyperledger Fabric network by submitting `query` or `invoke` requests. A Fabric `invoke` request can execute a specified chaincode to create or update states in distributed ledger or private collections. A Fabric `query` request can execute a specified chaincode to query current states or history in distributed ledger or private collections without changing any state.
 
-With these extensions, Hyperledger Fabric client apps can be designed and implemented with zero code. Refer to the sample [`equipment`](../samples/equipment) for more details about implementing REST or GraphQL service that interacts with a Hyperledger Fabric network.
+With these extensions, Hyperledger Fabric client apps can be designed and implemented with zero code. Refer to the [samples](https://github.com/dovetail-lab/fabric-samples) for more details about implementing REST or GraphQL service that interacts with a Hyperledger Fabric network.
 
-To use this extension in Flogo model, you can create [`fabclientExtension.zip`](../fabclientExtension.zip) by using the script [`zip-fabclient.sh`](../zip-fabclient.sh), and then upload the zip-file to the `TIBCO Flogo® Enterprise 2.10.0` as an extension, and so they are available for modeling client apps and services for Hyperledger Fabric.
+To use this extension in Flogo model, you can create `fabclientExtension.zip` by using the script [`zip-fabclient.sh`](./zip-fabclient.sh), and then upload the zip-file to the `TIBCO Flogo® Enterprise 2.10.0` as an extension, and so they are available for modeling client apps and services for Hyperledger Fabric.
