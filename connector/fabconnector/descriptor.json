@@ -5,7 +5,7 @@
     "title": "Fabric Connector",
     "author": "TIBCO Software Inc.",
     "display": {
-        "category": "fabclient",
+        "category": "fabric-client",
         "description": "Fabric Connection",
         "visible": true,
         "smallIcon": "ic-fabconnector@2x.png",

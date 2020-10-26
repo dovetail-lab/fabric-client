@@ -1,11 +1,11 @@
 {
     "name": "fabclient-eventlistener",
-    "version": "1.1.0",
+    "version": "1.0.0",
     "type": "flogo:trigger",
     "title": "Fabric Event Listener",
     "author": "TIBCO Software Inc.",
     "display": {
-        "category": "fabclient",
+        "category": "fabric-client",
         "description": "This trigger listens to fabric events",
         "visible": true,
         "smallIcon": "ic-fabeventlistener@2x.png",

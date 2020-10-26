@@ -1,12 +1,12 @@
 
 {
     "name": "fabclient-request",
-    "version": "1.1.0",
+    "version": "1.0.0",
     "type": "flogo:activity",
     "title": "Fabric Request",
     "author": "TIBCO Software Inc.",
     "display": {
-        "category": "fabclient",
+        "category": "fabric-client",
         "visible": true,
         "description": "Send Fabric request",
         "smallIcon": "ic-fabrequest@2x.png",
