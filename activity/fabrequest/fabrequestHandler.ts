@@ -29,7 +29,7 @@ export class fabrequestHandler extends WiServiceHandlerContribution {
         if (fieldName === "connectionName") {
             // return list of connector refs
             return Observable.create(observer => {
-                WiContributionUtils.getConnections(this.http, "fabclient").subscribe((data: IConnectorContribution[]) => {
+                WiContributionUtils.getConnections(this.http, "fabric-client").subscribe((data: IConnectorContribution[]) => {
                     let connectionRefs = [];
                     data.forEach(connection => {
                         if ((<any>connection).isValid) {
